@@ -1,0 +1,7 @@
+NumpadMult::
+KeyDown := !KeyDown
+If KeyDown
+ SendInput {v down}
+Else
+ SendInput {v up}
+Return
